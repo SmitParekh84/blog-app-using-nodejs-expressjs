@@ -1,0 +1,117 @@
+/* Import only the variables file */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "node_modules/bootstrap/scss/_variables.scss";
+body {
+    display: grid;
+    background: rgba(10, 10, 10, 0.1);
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+div h1 {
+    color: #bc1aa4;
+}
+
+
+/* navbar */
+
+.nav-link {
+    color: #000000;
+    /* Change this to your desired link color */
+}
+
+.nav li a:hover {
+    color: #bc1aa4 !important;
+}
+
+.nav li a:active {
+    color: #bc1aa4 !important;
+}
+
+
+/* card */
+
+.read-more-link {
+    color: #000000;
+    text-decoration: none;
+    /* Same color as .nav-link */
+}
+
+.read-more-link:hover {
+    color: #bc1aa4 !important;
+    /* Same hover color as .nav li a:hover */
+}
+
+
+/* end */
+
+
+/* button start */
+
+.btn-outline-primary {
+    color: black;
+    border-color: black;
+}
+
+.btn-outline-primary:hover,
+.btn.btn-outline-primary:active {
+    background-color: #bc1aa4;
+    color: white;
+    border-color: #bc1aa4;
+}
+
+.custom-btn {
+    background-color: #bc1aa4;
+    color: white;
+    border-color: #bc1aa4;
+}
+
+.custom-btn:hover,
+.btn.btn-primary.custom-btn:active {
+    background-color: #9c158e;
+    color: white;
+    /* Darker shade for hover */
+    border-color: #9c158e;
+    /* Darker shade for hover */
+}
+
+
+/* end */
+
+
+/* footer start */
+
+
+/* .footer {
+    text-align: center;
+    bottom: 0;
+    height: 60px;
+    background-color: #bc1aa4;
+}
+
+.footer p {
+    color: #fff;
+} */
+
+.content-wrapper {
+    min-height: calc(100vh - 76px);
+    /* Adjust height to subtract footer height */
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #bc1aa4;
+}
+
+
+/* end */
